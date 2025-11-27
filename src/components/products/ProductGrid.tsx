@@ -80,7 +80,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({
   }, [products]);
 
   return (
-    <div className="w-[75%] bg-white p-2 overflow-y-auto">
+    <div className="w-[75%] bg-white p-2 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
       {/* Products Count */}
       {/* <div className="mb-3 px-2 text-sm text-gray-600">
         Showing {visibleProducts.length} of {products.length} products

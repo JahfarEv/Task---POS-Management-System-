@@ -30,3 +30,15 @@ export interface Invoice {
   adjustment: number;
   total: number;
 }
+
+export interface LoginCredentials {
+  email: string;
+  password: string;
+}
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  role: string;
+}

@@ -1,12 +1,30 @@
 import type { Product } from '../types';
 
 export const CATEGORIES = [
-  "All Items", "Oil", "Chocolate", "Spices", "Foil & Plastic", 
-  "Rice & Food", "Smoking", "Milk", "Soft Drinks", "Frozen", 
-  "Tea & Coffee", "Other", "Medical", "Seeds & Fruits", "All Items", "Oil", "Chocolate", "Spices", "Foil & Plastic", 
-  "Rice & Food", "Smoking", "Milk", "Soft Drinks", "Frozen", 
-  "Tea & Coffee", "Other", "Medical", "Seeds & Fruits"
+  "All Items",
+  "Oil",
+  "Chocolate",
+  "Spices",
+  "Foil & Plastic",
+  "Rice & Food",
+  "Smoking",
+  "Milk",
+  "Soft Drinks",
+  "Frozen",
+  "Tea & Coffee",
+  "Other",
+  "Medical",
+  "Seeds & Fruits",
+  "Snacks",
+  "Bakery",
+  "Cleaning & Hygiene",
+  "Beauty & Personal Care",
+  "Baby Products",
+  "Home Essentials",
+  "Canned & Jar Foods",
+  "Biscuits & Cookies"
 ];
+
 
 export const PRODUCTS: Product[] = [
   { id: 1, name: "DAVIDOFF ONE SLIM", price: 24.500, category: "Smoking", lowStock: true },

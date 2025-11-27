@@ -12,7 +12,7 @@ export const CategoryPanel: React.FC<CategoryPanelProps> = ({
   onCategorySelect,
 }) => {
   return (
-    <div className="w-[35%] bg-white border-r p-2 overflow-y-auto">
+    <div className="w-[35%] bg-white border-r border-gray-300 p-2 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
       {/* Header */}
 
       {/* Categories Grid - 2 columns */}
